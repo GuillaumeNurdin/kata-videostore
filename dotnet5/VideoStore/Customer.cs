@@ -1,9 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
 
-namespace Soat.CleanCode.VideoStore.Original
+namespace VideoStore
 {
-    public class Customer
+   public class Customer
     {
         private readonly List<Rental> _rentals = new List<Rental>();
         public string Name { get; }
